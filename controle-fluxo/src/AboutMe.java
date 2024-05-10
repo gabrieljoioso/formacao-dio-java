@@ -8,10 +8,8 @@ public class AboutMe {
         try{
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        
         System.out.println("Digite seu some");
         String nome = scanner.next();
-        
 
         System.out.println("Digite seu sobrenome");
         String sobrenome = scanner.next();
